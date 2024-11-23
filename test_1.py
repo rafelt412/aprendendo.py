@@ -1,6 +1,7 @@
 import pandas as pd
+#Cria uma lista vazia com o intuito de salvar os animais/comida
 animais = []
-def validar(nome, tipo):
+def validar(nome, tipo): # função que vai validar a entrada de dados dos animais e comida
     if tipo == str:
         if not nome:
             print('erro: não deixe o nome do animal/comida em branco!')
